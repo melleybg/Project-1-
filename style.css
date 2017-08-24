@@ -1,0 +1,111 @@
+
+
+body {
+  background: #DAA520;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  color: #A0522D;
+  font-family: fantasy;
+}
+
+
+h2 {
+  margin: 0;
+  font-size: 35px;
+  color:#800000;
+  font-family: fantasy;
+
+}
+
+h3 {
+
+  font-size: 27px;
+  color: #800000;
+  font-family: fantasy;
+
+}
+
+.hangman_position{
+  padding-top: 10px;
+  width: 470px;
+  height: 400px;
+  position: absolute;
+  left: 400px;
+  top: 160px;
+  border-radius: 25px;
+}
+
+#striked-box {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.right_colum {
+  position: absolute;
+  width: 175px;
+  height: 310px;
+  left: 890px;
+  top: 160px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.box {
+  border: 2px solid brown;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  font-size: 20px;
+  background: #F0DBA5;
+
+}
+
+#hangImg {
+  width: 100px;
+  height: auto;
+  margin-right: 350px;
+}
+
+#td1 {
+  margin-left: 250px;
+}
+
+#hang {
+  margin-right: 150px;
+}
+
+#letters {
+  padding: 7px;
+  border-radius: 17px;
+}
+
+#guessed-word-boxes {
+  list-style: none;
+  padding-bottom: 80px;
+  -webkit-padding-start: 0;
+}
+
+#rip {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  max-height: 50%;
+}
+
+.guessed-letter {
+  display: inline-block;
+  float: left;
+}
+.hang{
+  float: right;
+}
+.messages{
+  text-align: center;
+  font-size: 70px;
+  color: red;
+}
